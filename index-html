@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Simple Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Student Table</h2>
+
+<table>
+  <tr>
+    <th class="c1">Name</th>
+    <th class="c2">Age</th>
+    <th class="c3">marks</th>
+  </tr>
+  <tr>
+    <td class="c4">Naresh</td>
+    <td class="c5">20</td>
+     <th class="c6">90</th>
+    
+
+  </tr>
+  <tr>
+    <td class="c7">Ravi</td>
+    <td class="c8">22</td>
+     <th class="c9">97</th>
+  </tr>
+  <tr>
+    <td class="c10">suri</td>
+    <td class="c11">37</td>
+     <th class="c12">99</th>
+</table>
+
+</body>
+</html>
