@@ -1,0 +1,27 @@
+table {
+  
+  width:70%
+  margin auto
+  border-collapse: collapse;
+}
+
+th, td { 
+  border: 4px solid rgb(20, 15, 15);
+  padding: 30px;
+  text-align: center;
+}
+
+/* Colors */
+.c1 { background-color: rgb(231, 22, 22); color: white; }
+.c2 { background-color: rgb(230, 62, 11); color: white; }
+.c3 { background-color: rgb(247, 10, 10); }
+.c4 { background-color: rgb(32, 223, 74); }
+.c5 { background-color: rgb(0, 255, 85); }
+.c6 { background-color: rgb(25, 206, 19); }
+.c7 { background-color: rgb(32, 59, 212);}
+.c8 { background-color: blue;}
+.c9 {background-color: rgb(58, 22, 190);}
+.c10{background-color: rgb(196, 20, 172);}
+.c11{background-color: rgb(230, 7, 238);}
+.c12{background-color: rgb(219, 24, 177);}
+  
