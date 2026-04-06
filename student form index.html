@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">  <!-- CSS file link -->
+</head>
+<body>
+    <div class="form-container">
+        <h2> Naresh inst of technology  Student Registration Form </h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="course">Course:</label>
+            <select id="course" name="course">
+                <option value="web">accounts</option>
+                <option value="data">human resouces</option>
+                <option value="ml">information technology</option>
+            </select>
+
+            <label for="gender">Gender:</label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
