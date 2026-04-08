@@ -1,0 +1,22 @@
+console.log("====charAt method example====")
+let word = "Naresh";
+console.log("charAt(1):", word.charAt(1)); 
+console.log("charAt(0):", word.charAt(0)); 
+console.log("charAt(last):", word.charAt(word.length - 1)); 
+
+console.log("====find index method====")
+let ages = [15, 20, 25, 30];
+console.log("First index where age > 18:", ages.findIndex(a => a > 18));  
+
+console.log("====every====")
+let fruits = ["apple", "banana", "mango", "orange"];
+console.log(fruits.every(fruit => fruit.length > 3));
+
+console.log("====splic====")
+let arr1 = [1, 2, 3, 4];
+arr1.splice(2, 1, 99);
+console.log("splice:", arr1);
+
+console.log("====some====")
+let nums = [10, 20, 30, 40];
+console.log(nums.some(n => n > 25)); 
