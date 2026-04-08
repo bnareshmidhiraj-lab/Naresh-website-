@@ -1,0 +1,30 @@
+// 1. splice()
+let arr1 = [1, 2, 3, 4];
+arr1.splice(2, 1, 99);
+console.log("splice:", arr1); // [1, 2, 99, 4]
+
+
+// 2. some()
+let arr2 = [10, 20, 30];
+let someResult = arr2.some(num => num > 25);
+console.log("some:", someResult); // true
+
+
+// 3. includes()
+let arr3= ["apple", "banana", "mango"];
+let includesResult = arr3.includes("banana");
+console.log("includes:", includesResult); // true
+
+
+// 4. findIndex()
+let arr4 = [4, 9, 16, 25];
+let index = arr4.findIndex(num => num > 10);
+console.log("findIndex:", index); // 2
+
+
+
+// 5. charAt()
+let str ="Hello thinava m chesthunav"
+let char = str.charAt(1
+);
+console.log("charAt:", char); // e
